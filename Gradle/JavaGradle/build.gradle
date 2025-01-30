@@ -73,6 +73,7 @@ task runFrac(type: JavaExec) {
     args(1, project.getProperty('denom'));
   }else {
     args(1, 1);
+  }
 }
 
 // Try:
